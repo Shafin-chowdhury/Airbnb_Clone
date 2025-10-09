@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Logo from "../assets/logo.png";
 import House from "../assets/Icons/house.png";
-import Ballon from "../assets/Icons/baloon.png";
+import Ballon from "../assets/Icons/Baloon.png";
 import Bell from "../assets/Icons/bell.png";
 import { Globe, Menu, Search, X, HelpCircle } from "lucide-react"; 
 import Person from "../assets/Person.png";

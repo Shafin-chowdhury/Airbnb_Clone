@@ -1,8 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import Logo from "../assets/logo.png";
-import House from "../assets/Icons/house.png";
-import Ballon from "../assets/Icons/Baloon.png";
-import Bell from "../assets/Icons/bell.png";
 import { Globe, Menu, Search, X, HelpCircle } from "lucide-react"; 
 import Person from "../assets/Person.png";
 
@@ -55,18 +52,18 @@ const Header = () => {
       
         <div className="flex items-center space-x-12 font-medium text-gray-600">
           <button className="flex items-center space-x-2 border-b-2 border-black pb-1 cursor-pointer hover:text-black transition">
-            <img src={House} alt="Homes" className="h-7" />
+            <img src="/Icons/house.png" alt="Homes" className="h-7" />
             <p className="text-black font-semibold">Homes</p>
           </button>
           <button className="relative flex items-center space-x-2 cursor-pointer hover:text-black transition">
-            <img src={Ballon} alt="Experiences" className="h-8" />
+            <img src="/Icons/Baloon.png" alt="Experiences" className="h-8" />
             <span className="absolute -top-2 left-6 bg-[#3D426B] text-white text-[10px] font-semibold rounded-full px-1.5 py-[1px]">
               NEW
             </span>
             <p>Experiences</p>
           </button>
           <button className="relative flex items-center space-x-2 cursor-pointer hover:text-black transition">
-            <img src={Bell} alt="Services" className="h-9" />
+            <img src="/Icons/bell.png" alt="Services" className="h-9" />
             <span className="absolute -top-2 left-6 bg-[#3D426B] text-white text-[10px] font-semibold rounded-full px-1.5 py-[1px]">
               NEW
             </span>
@@ -188,7 +185,7 @@ const Header = () => {
           }`}
         >
           <button className="flex flex-col items-center space-y-1 hover:text-[#FF385C] transition">
-            {!shrink && <img src={House} alt="Homes" className="h-5" />}
+            {!shrink && <img src="/Icons/house.png" alt="Homes" className="h-5" />}
             <span className={`${shrink ? "text-[15px]" : "text-sm font-medium"}`}>
               Homes
             </span>
@@ -197,7 +194,7 @@ const Header = () => {
           <button className="flex flex-col items-center space-y-1 relative hover:text-[#FF385C] transition">
             {!shrink && (
               <>
-                <img src={Ballon} alt="Experiences" className="h-6" />
+                <img src="/Icons/Baloon.jpg" alt="Experiences" className="h-6" />
                 <span className="absolute -top-1 left-8 bg-[#3D426B] text-white text-[8px] font-semibold rounded-full px-1 py-[1px]">
                   NEW
                 </span>
@@ -211,7 +208,7 @@ const Header = () => {
           <button className="flex flex-col items-center space-y-1 relative hover:text-[#FF385C] transition">
             {!shrink && (
               <>
-                <img src={Bell} alt="Services" className="h-6" />
+                <img src= "/Icons/bell.png" alt="Services" className="h-6" />
                 <span className="absolute -top-1 left-8 bg-[#3D426B] text-white text-[8px] font-semibold rounded-full px-1 py-[1px]">
                   NEW
                 </span>

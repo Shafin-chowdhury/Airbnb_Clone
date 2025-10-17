@@ -1,16 +1,53 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🏠 Airbnb-Inspired Frontend Task
 
-Currently, two official plugins are available:
+A responsive Airbnb-inspired homepage built using React and Tailwind CSS.
+This project replicates the modern layout, animations, and responsiveness of Airbnb’s home page — including a dynamic header, inspirational section, category listings, and footer — while being optimized for both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+🖥️ Desktop View
 
-## React Compiler
+Fully responsive modern Airbnb-style design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Shrinking header animation when scrolling
 
-## Expanding the ESLint configuration
+Image cards with heart icons and “Guest favorite” badge
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Category rows with listings data
+
+Beautiful inspirational section with travel ideas
+
+Functional and aesthetic footer
+
+📱 Mobile View
+
+Compact header with a search bar only (includes a search icon and “Start your search” text)
+
+Below the search bar, simplified navigation tabs for:
+
+Homes
+
+Experiences
+
+Services
+
+On scroll, category images hide, leaving only tab text visible
+
+Clean responsive design adapting to all screen sizes
+
+🧩 Components Overview
+Component	Description
+Header.jsx	Contains the main site navigation, responsive search layout, and shrink-on-scroll functionality
+Card.jsx	Displays property details (image, name, price, rating) with favorite heart icon
+CategoryRow.jsx	Displays a horizontal scrollable row of Card components under each section
+Inspirational.jsx	Section displaying travel ideas and destinations (as seen on Airbnb)
+Footer.jsx	Responsive footer section with company details and social links
+data/Listing.js	Data file storing listings for each section
+App.jsx	Main layout combining all sections into one complete page
+🛠️ Tech Stack
+
+⚛️ React.js – Component-based frontend UI
+
+🎨 Tailwind CSS – Utility-first responsive styling
+
+💡 React Icons – For consistent and modern iconography
